@@ -1,0 +1,31 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "listEmittedFiles": true,
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "noImplicitAny": true,
+    "outDir": "../wwwroot",
+    "preserveConstEnums": true,
+    "pretty": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "strict": false,
+    "target": "ES2019"
+  },
+  "include": [
+    "src/**/*",
+    "assets/**/*",
+    "test/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.test.ts"
+  ]
+}
+    
