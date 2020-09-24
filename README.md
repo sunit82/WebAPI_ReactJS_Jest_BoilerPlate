@@ -37,15 +37,16 @@ Above command will run all the mocha test. We can run one specific test suit by 
 
 ![image](https://user-images.githubusercontent.com/20241763/94140080-58f9e180-fe88-11ea-9061-0a82c716f9ff.png)
 
-## Setup
+## Setup & Run
 1. Clone the repository.
 2. Run the <i>npm install </i> command at <root folder>/Client folder.
-3. Open the .sln file in Visual Studio 2019.
-4. Now press Ctrl+F5 to run the app in non debug mode in visual studio. This should open the web app home page.
+3. Run the build  command the generate bundled output in wwwroot folder. <i>npm run build</i>
+4. Open the .sln file in Visual Studio 2019.
+5. Now press Ctrl+F5 to run the app in non debug mode in visual studio. This should open the web app home page.
    If the you click the "Click ME" button on home page and view the browser console window, the API call result should be visible.
    ![image](https://user-images.githubusercontent.com/20241763/94142814-78930900-fe8c-11ea-802e-f08f4c4e950e.png)
 
-5. To call the API directly in browser, browse the URL - https<span></span>://localhost:44320/api/Home/Index
+6. To call the API directly in browser, browse the URL - https<span></span>://localhost:44320/api/Home/Index
 
 ## Future scope of work.
 - Add a unit test project for WebAPI code.
