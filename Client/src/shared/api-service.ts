@@ -1,8 +1,7 @@
 ﻿import Axios, { AxiosResponse } from 'axios';
 
 const axiosInstance = Axios.create();
-
-const baseApiUri = "https://localhost:44362/";
+const baseApiUri = location.href;
 
 const generateDataAPIUri = baseApiUri + "api/home/Index";
 

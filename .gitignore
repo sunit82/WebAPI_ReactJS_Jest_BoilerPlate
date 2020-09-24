@@ -3,3 +3,8 @@
 ################################################################################
 
 /Client/node_modules
+/.vs/WebAPI-ReactJS-Jest-BoilerPlate
+/obj
+/bin
+/Client/package-lock.json
+/wwwroot
